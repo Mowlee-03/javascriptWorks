@@ -8,8 +8,8 @@ let clear = document.getElementById("clear");
 let erase = document.getElementById("erase");
 
 window.onload = () => {
-  input.value = "";
-};
+  input.value = ""
+}
 
 //Access each class using forEach
 button_input.forEach((button_class) => {
@@ -45,7 +45,7 @@ equal.addEventListener("click", () => {
 
 //Clear Whole Input
 clear.addEventListener("click", () => {
-  input.value = "";
+  input.value = ""
 });
 //Erase Single Digit
 erase.addEventListener("click", () => {
