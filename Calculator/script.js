@@ -7,9 +7,12 @@ let equal = document.getElementById("equal");
 let clear = document.getElementById("clear");
 let erase = document.getElementById("erase");
 
+
+
 window.onload = () => {
   input.value = ""
 }
+
 
 //Access each class using forEach
 button_input.forEach((button_class) => {
